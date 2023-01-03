@@ -1,7 +1,6 @@
 import app from "./index.js";
 import mongoose from "mongoose";
 import https from "https";
-import path from "path";
 import fs from "fs";
 import apiService from "./service/apiService.js";
 
@@ -24,7 +23,7 @@ mongoose
   .then(() => {
     sslServer.listen(port, () => {
       console.log(
-        `Connected to MongoDB! \nListening on: http://localhost:${port}`
+        `Connected to MongoDB! \nListening on: https://localhost:${port}`
       );
     });
     // apiService();
