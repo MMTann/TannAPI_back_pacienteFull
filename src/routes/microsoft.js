@@ -24,7 +24,7 @@ loginRouter.get(
       <body>
       </body>
       <script>
-        window.opener.postMessage(${userString}, 'http://localhost:5080')
+        window.opener.postMessage(${userString}, 'https://datalake.tannodontoestetica.com.br/')
       </script>
     </html>`);
   }
