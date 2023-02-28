@@ -15,7 +15,7 @@ mongoose
   .then(() => {
     app.listen(port, () => {
       console.log(
-        `Connected to MongoDB! \nListening on: https://localhost:${port}`
+        `Connected to MongoDB! \nListening on: http://localhost:${port}`
       );
     });
     // apiService();
